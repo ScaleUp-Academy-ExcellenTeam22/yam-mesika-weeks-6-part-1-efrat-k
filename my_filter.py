@@ -1,8 +1,9 @@
 
-"""
-My implementation of a filter function
-"""
+
 def my_filter(function, iter):
+    """
+    My implementation of a filter function
+    """
     return [i for i in iter if function(i)]
 
 if __name__=="__main__":
